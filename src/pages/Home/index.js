@@ -18,7 +18,7 @@ export default function Home({ navigation }) {
         ]);
 
     return (
-        <View style={{ flex: 1, backgroundColor: '#f2dfd3' }}>
+        <View style={styles.container}>
             {/* Header */}
             <View style={styles.containerHeader}>
                 <ImageBackground

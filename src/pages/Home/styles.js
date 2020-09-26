@@ -1,6 +1,9 @@
 import {StyleSheet} from 'react-native';
  
 const styles = StyleSheet.create({
+    container: {
+        flex: 1, backgroundColor: '#f2dfd3' 
+    },
     containerButton: {
         borderTopRightRadius: 50,
         backgroundColor: 'orange',
