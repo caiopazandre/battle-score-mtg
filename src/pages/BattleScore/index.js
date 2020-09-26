@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { TouchableOpacity, StatusBar, Text, View } from 'react-native';
-import { useKeepAwake } from 'expo-keep-awake';
+import { activateKeepAwake } from 'expo-keep-awake';
 import styles from './styles';
 
 export default function Home() {
-  useKeepAwake();
+  activateKeepAwake();
   const [countOne, setcountOne] = useState(20);
   const [countTwo, setcountTwo] = useState(20);
 
